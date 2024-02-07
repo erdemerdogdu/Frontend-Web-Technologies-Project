@@ -5,9 +5,6 @@ This project is developed using jQuery library of Javascript.
 This page is designed for desktop devices.
 
 Features
-Different Profiles
-You can change your profile.
-
 Every profile data is saved in local storage.
 
 Adding To-Do Lists
