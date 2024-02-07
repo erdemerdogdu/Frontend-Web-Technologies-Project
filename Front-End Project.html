@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./Front-End Project.css"> 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./Front-End Project.js"></script>
+</head>
+<body>
+        <main>
+            <div id="left">
+                <div id="profile">  
+                    <div id="foto"><img src="./images/Erdem Erdoğdu.jpeg" alt="">
+                    </div> 
+                    <div id="nameSurname">
+                        <h4>Erdem Erdogdu</h3>
+                        <p>erdem.erdogdu@ug.bilkent.edu.tr</p>
+                    </div>
+                </div>
+
+                <div id="project">
+                   <span><p>&#9734</p>Project Members</span>
+                </div>
+                <div id="listItems">
+                    
+                    <!-- <div class="listitem">
+                        <ul>
+                            <li>
+                                <div>&#8987</div>
+                                <div id="list-item-title">${item.title}</div>
+                                <div class="icon hidden"><i class="fa-solid fa-trash"></i></div>
+                            </li> 
+                        </ul>
+                    </div> -->
+      
+
+                </div>
+
+                <div id="newList">
+                <span> <p>&#43</p>New List</span>
+                </div>
+
+            </div> <!--left-->
+           
+           
+            <div id="right"> <!-- right -->
+                
+                <div id="projectmembers" class="display"><!--ProjectMembers-->
+                    <div id="title">
+                        <span>🔅</span>
+                        <h2>Project Members</h2>
+                    </div>
+                
+                    <section>
+
+                        <div class="person">
+                            <div> <img src="./images/AslıKuterdem.jpeg" alt=""></div>
+                            <div id="person">
+                                <h4>Aslı Kuterdem</h4>
+                                <p>22102611</p>
+                                <p>Section: 03</p>
+                            </div>
+                        </div>
+
+
+                        <div class="person">
+                            <div> <img src="./images/ayse.jpg" alt=""></div>
+                            <div id="person">
+                                <h4>Ayşe Ceren Çoban</h4>
+                                <p>22102611</p>
+                                <p>Section: 03</p>
+                            </div>
+                        </div>
+
+
+                        <div class="person">
+                            <div> <img src="./images/Erdem Erdoğdu.jpeg" alt=""></div>
+                            <div id="person">
+                                <h4>Erdem Erdoğdu</h4>
+                                <p>22103052</p>
+                                <p>Section: 01</p>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div> <img src="./images/Bahadır Yavaş.jpeg" alt=""></div>
+                            <div id="person">
+                                <h4>İlhan Bahadır Yavaş</h4>
+                                <p>22101833</p>
+                                <p>Section:03</p>
+                            </div>
+                        </div>
+
+                     
+                    </section> 
+
+
+                </div><!--ProjectMembers-->
+
+                <div id="todolist-main" class="list hidden"><!--List right html-->
+                    <div class="listtitle">
+                        <h1></h1>
+                    </div>
+            
+                    <div  class="to-do">
+                        <!-- <div class="item" id="item${arrayCounter[index]}">
+                            <input type="checkbox" class="chkbox" id="">
+                            <label for="">${to_do}</label>
+                        </div> -->
+                    </div>
+            
+                    <div class="addTaskGeneral">
+                        <div class="addTask">
+                            <p>&#43</p><input id="txtFocused" type="text" name="addTaskText" class="addTaskText" placeholder="Add a Task">
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div> <!-- right -->
+            
+            <div id="newtaskgeneral"><!--NewTask-->
+                <div id="newTask">
+                    <div id="newTaskName"> <h3>New Task Name</h3></div>
+                    <input type="text" id="txtNewTask" name="txtNewTask">
+                    <div id="createCancel">
+                       <div id="create">Create</div>
+                       <div id="cancel">Cancel</div>
+                    </div>
+                </div>
+            </div>
+           
+        
+        </main>
+
+</body>
+</html>
